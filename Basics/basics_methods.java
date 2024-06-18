@@ -17,10 +17,15 @@ public class basics_methods {
                 System.out.println(name+" "+"Is a adult");
             }
          }
+         //RETURN method
+         static int methodreturn(int x){
+            return(5+x);
+         }
     public static void main(String args[]){
         MyMethod(); 
         Goodmorning("Pranav");
         checkage(18, "Pranav");
+        System.out.println(methodreturn(5));
         
         
         
